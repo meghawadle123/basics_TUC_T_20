@@ -8,7 +8,9 @@ import { Component } from "@angular/core";
     styleUrls:["comment.component.scss"]
 })
 export class CommentComponent{
-   author:string= "ketaki"
-    message: string="This is a great product!"
-    likes: number=10
+  comment = {
+  name: "John Doe",
+  email: "john@example.com",
+  body: "This is a sample comment"
+};
 }
